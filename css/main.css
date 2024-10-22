@@ -1466,6 +1466,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transition: all 0.3s ease-in-out;
 }
 
+.logo-navbar {
+    max-width: 435%;
+  margin-top: 38px;
+}
+
+@media screen and (max-width: 491px) {
+    .logo-navbar {
+      max-width: 200%; /* Ajusta este valor según el tamaño que quieras para pantallas pequeñas */
+      margin-top: 20px; /* También puedes ajustar el margen si lo deseas */
+    }
+  }
+
+
 
 /* ------------------------------------------------------------------- 
  * ## main navigation 
@@ -1728,7 +1741,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 571px) {
     .header-menu-text {
         display: none;
     }
