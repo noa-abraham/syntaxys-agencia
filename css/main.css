@@ -1214,7 +1214,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .display-1 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 7.8rem;
+    font-size: 4.3rem;
     line-height: 1.25;
     color: #000000;
     margin-top: 0;
@@ -1804,7 +1804,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h1 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: 6.3rem;
+    font-size: 4.3rem;
     line-height: 1.333;
     margin-top: 0;
     color: #FFFFFF;
