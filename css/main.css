@@ -90,7 +90,7 @@ body {
     padding: 20px; /* Espaciado interno */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    margin: 20px 0; /* Margen superior e inferior */
+    
 }
 
 .service-list h2 {
@@ -103,9 +103,15 @@ body {
 .service-list ul {
     list-style-type: none; /* Quitar viñetas */
     padding-left: 0; /* Quitar margen izquierdo */
+    margin: 0 auto; /* Centrar el ul dentro del contenedor */
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
 }
 
 .service-list li {
+    width: 100%; /* Usa el 100% del ancho disponible */
+    max-width: 600px; /* Limita el ancho máximo de cada plan */
     margin-bottom: 15px; /* Espaciado inferior entre listas */
     padding: 15px; /* Espaciado interno */
     border: 1px solid #e0e0e0; /* Bordes grises claros */
@@ -114,6 +120,7 @@ body {
     transition: box-shadow 0.3s; /* Efecto de transición para hover */
     font-family: "montserrat-medium", sans-serif;
     color: #f3f0f0;
+    margin-left: -12px;
 }
 
 .service-list li:hover {
@@ -143,6 +150,7 @@ body {
 @media (max-width: 768px) {
     .service-list {
         padding: 15px; /* Espaciado interno reducido */
+        margin: 10px;
     }
 
     .service-list h2 {
